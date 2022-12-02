@@ -1,6 +1,6 @@
 module github.com/p4gefau1t/trojan-go
 
-go 1.17
+go 1.19
 
 require (
 	github.com/go-sql-driver/mysql v1.6.0
@@ -37,3 +37,5 @@ require (
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
 )
+
+replace github.com/p4gefau1t/trojan-go => github.com/Mickeyto/trojan-go v0.0.0-20210914074124-2dc60f52e79f
